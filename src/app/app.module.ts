@@ -13,6 +13,7 @@ import { AppComponent } from './app.component';
 
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   imports: [
@@ -28,6 +29,7 @@ import { HomeComponent } from './home/home.component';
     AppComponent,
     AdminLayoutComponent,
     HomeComponent,
+    LoginComponent,
 
   ],
   providers: [],
