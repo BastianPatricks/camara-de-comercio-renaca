@@ -1,3 +1,34 @@
-<p>
-  login works!
-</p>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <div class="card card-user">
+        <div class="image">
+          <img src="../assets/img/fondo-fish.png" alt="...">
+        </div>
+        <div class="card-body">
+          <div class="author">
+            <img class="avatar border-gray" src="../assets/img/logo-camara.png" alt="...">
+            <h5 class="title"> Plataforma cámara de comercio</h5>
+            
+              <div class="form-group">
+                <label for="usuario">Usuario</label>
+                <input type="text" class="form-control" id="usuario" placeholder="Ingrese Usuario" [(ngModel)]="localUser.username">
+              </div>
+              <div class="form-group">
+                <label for="contraseña">Contraseña</label>
+                <input type="password" class="form-control" id="contraseña" placeholder="Ingrese Contraseña"
+                  [(ngModel)]="localUser.password">
+              </div>
+              
+            
+            <a (click)= "login()" class="btn btn-primary">Ingresa </a>
+            <a (click)= "registrar()" class="btn btn-primary">Registrarte </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4"></div>
+  </div>
+</div>

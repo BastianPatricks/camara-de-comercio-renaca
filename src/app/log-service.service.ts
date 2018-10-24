@@ -47,8 +47,8 @@ export class LogServiceService {
       .map((res: Response) => res.json())
   }
   //Ejemplo POST
-  addLogEmpresa(empresa): Observable<any> {
-    return this.httpClient.post(this.host + "/logsController/addEmpresaLog", empresa, this.header);
+  addUser(user): Observable<any> {
+    return this.httpClient.post(this.host + "/addUser", user, this.header);
   }
 
 }
