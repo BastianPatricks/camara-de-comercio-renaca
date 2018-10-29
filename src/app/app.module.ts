@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 
 import { AppRoutingModule } from './app.routing';
@@ -20,6 +21,7 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserAnimationsModule,
     FormsModule,
+    CarouselModule.forRoot(),
     HttpModule,
     ComponentsModule,
     RouterModule,
