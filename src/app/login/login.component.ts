@@ -32,7 +32,7 @@ export class LoginComponent implements OnInit {
         if(this.localUser.password == val.contraseña_usuario){
           console.log(val);
           this.router.navigateByUrl('/dashboard')
-        }
+        } 
       }
     })
   }
