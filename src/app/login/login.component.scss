@@ -1,18 +1,5 @@
-body, html {
-    height: 100%;
-}
-
-.bg { 
-    /* The image used */
-    background-image: src="../src/assets/img/fondo-login.jpg";
-
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+body{
+    background-color: #000000 !important;
 }
 .card-user{
     margin: 0 auto !important;
