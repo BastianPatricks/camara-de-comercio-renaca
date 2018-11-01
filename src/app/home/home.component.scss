@@ -32,3 +32,18 @@ a:hover {
 body { 
     overflow:hidden; 
   }
+
+.col {
+    padding-right: 0 !important; 
+    padding-left: 0 !important;
+
+}.card-user{
+    margin: 0 auto !important;
+    float: none !important;
+    
+}
+@media (min-width: 992px) {
+    .navbar {
+        height:65px;
+    }
+}
