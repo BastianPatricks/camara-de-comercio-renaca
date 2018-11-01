@@ -16,6 +16,7 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
   imports: [
@@ -27,7 +28,8 @@ import { HttpClientModule } from '@angular/common/http';
     RouterModule,
     AppRoutingModule,
     HttpClientModule,
-    NgbModule.forRoot()
+    NgbModule.forRoot(),
+    ToastrModule.forRoot()
   ],
   declarations: [
     AppComponent,
@@ -38,5 +40,6 @@ import { HttpClientModule } from '@angular/common/http';
   ],
   providers: [],
   bootstrap: [AppComponent]
+  
 })
 export class AppModule { }
